@@ -40,7 +40,7 @@ header nav .right-part ul li span {
   padding-top: 337px;
 }
 #banner {
-  background: url("/Images/banner_image.jpg");
+  background: url("../Images/banner_image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
