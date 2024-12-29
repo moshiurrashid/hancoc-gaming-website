@@ -9,8 +9,11 @@ body {
 }
 /* --------------------------------nav bar start------------------------------------ */
 header {
-  position: absolute;
+  position: fixed;
+  background-color: black;
+  z-index: 999;
   width: 100%;
+  top: 0;
 }
 header nav .nav-item .nav-list {
   font-size: 16px;
@@ -40,8 +43,7 @@ header nav .right-part ul li span {
   padding-top: 337px;
 }
 #banner {
-  background: url("../Images/banner_image.jpg");
-  background-repeat: no-repeat;
+  background: url("../Images/banner_image.jpg") no-repeat;
   background-size: cover;
 }
 #banner .banner_wrapper .banner_title h4 {
